@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+   get 'sessions/index'
+   get 'sessions/new'
    get   'book/list'
    get   'book/new'
    post  'book/create'
@@ -9,4 +11,5 @@ Rails.application.routes.draw do
    get   'book/delete'
    get   'book/update'
    get   'book/show_subjects'
+   get   'css/login.css'
 end
